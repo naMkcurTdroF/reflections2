@@ -1,0 +1,17 @@
+Lesson 1 -
+I guess this is interesting to try on my new system.
+Some of it is slowing coming back.
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+  - easily. :)
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+  - pros: meaningful saves when a logical change is done. fewer versions. better tracking of related changes across other files.
+  - cons: might forget to save and lose data.
+
+What does using a VCS like git do to confidence in making changes that might result in a big break in functionality?
+  - I know I can go back.
+  - Encourage to experiment, sometimes bigger than before, with built-in documentation (as good as the commit comments are)
+  - May make people make more commits --> why TWC needs to fix branching and merging and speed of commits
+
+2020-01-27 - stopped at 9:35am PST / 12:35pm EST at Lesson 30 in Week 1
