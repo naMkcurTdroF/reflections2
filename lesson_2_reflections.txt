@@ -1,0 +1,7 @@
+git init  --> creates a new repo from existing directory
+git status --> shows me what files have changed since last commit
+git add  --> add files to staging area
+
+seems like staging area (i never hear people at work talk about it) helps not commit everything that's changed.
+git commit -m "comment"  (i'd like to see how good the comments our team leaves are)
+git commit (without '-m "my comment") opens my default editor to compose my commit comments
