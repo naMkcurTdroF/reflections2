@@ -5,3 +5,19 @@ git add  --> add files to staging area
 seems like staging area (i never hear people at work talk about it) helps not commit everything that's changed.
 git commit -m "comment"  (i'd like to see how good the comments our team leaves are)
 git commit (without '-m "my comment") opens my default editor to compose my commit comments
+
+git diff (without arguments compares working directory to staging area)
+git diff --staged (compares staging area (only things being staged) to repository... i.e. a last check before doing a commit)
+git reset --hard  (resets working directory to staging/current commit - undoes any changes you made)
+git checkout master (same as if you knew the latest commit pointer)
+
+Staging area is nice since you can be working a good number of things and then only commit some (unless the changes you for multiple things in-progress are in the same file, but both aren't ready)
+git branch  --> lists branches
+git branch {name}   --> creates a branch of that name based on the current branch (I think)
+git checkout {branch_name}   --> switches to this branch
+git log --graph --oneline {branch_name1} {branch_name2} {etc}
+git checkout -b {new_branch_name}  --> is the same as two commands:
+    git branch {new_branch_name}
+    git checkout {new_branch_name}
+I want to try out the visualization stuff on work repos
+(end of 3.20)
