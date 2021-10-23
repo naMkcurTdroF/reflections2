@@ -21,3 +21,12 @@ git checkout -b {new_branch_name}  --> is the same as two commands:
     git checkout {new_branch_name}
 I want to try out the visualization stuff on work repos
 (end of 3.20)
+
+3.24 - some helpful info:
+if CR/LR issues, to fix this, Windows users should set the global autocrlf attribute to true: git config --global core.autocrlf true. More information can be found here: https://help.github.com/articles/dealing-with-line-endings/#platform-all
+
+Comparing a commit to its parent
+The command Caroline mentions to compare a commit to its parent is git show commit_id
+
+** really important - git show {commit_id}  --> only shows diffs with respect its actual parent (which isn't always the same as the previous commit chronologically if there were merges of other branches)
+git branch -d {branch_name}  --> deletes a branch (just the label)
